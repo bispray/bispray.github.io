@@ -1,7 +1,38 @@
 #page-header.post-bg{
   height: 100vh;
 }
+
 #page-header #post-info{
   top: 50%;
   transform: translate(0, -50%);
+}
+
+.fa-spin{
+  -webkit-animation-name: iconjump;
+  animation-name: iconjump;
+  -webkit-animation-duration: .7s;
+  animation-duration: .7s;
+  -webkit-animation-iteration-count: 0;
+  animation-iteration-count: 0;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+@keyframes iconjump{
+  0%{
+    transform: translate(0, 0);
+  }
+  70%{
+    transform: translate(0, -3px);
+  }
+  100%{
+    transform: translate(0, 0);
+  }
+}
+
+icon-sider:hover{
+  animation: iconjump .2s linear;
+}
+#footer{
+  background-color: rgba(15, 15, 15, 0.2);
 }
