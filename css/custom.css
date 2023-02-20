@@ -59,3 +59,31 @@ icon-sider:hover{
 .copyright{
   margin-bottom: 11px;
 }
+
+#aside-content .card-info #card-info-btn{
+  border-radius: 50px;
+}
+
+#rightside > div > button,
+#rightside > div > a{
+  border-radius: 50%;
+}
+
+#pagination .page-number.current{
+  border-radius: 50%;
+}
+
+#aside-content .card-announcement .item-headline i{
+  -webkit-animation-delay: 0 !important;
+  animation-delay: 0 !important;
+  -webkit-animation-direction: normal !important;
+  animation-direction: normal !important;
+  -webkit-animation-name: iconjump !important;
+  animation-name: iconjump !important;
+  -webkit-animation-duration: 1 !important;
+  animation-duration: 1 !important;
+  -webkit-animation-iteration-count: 0 !important;
+  animation-iteration-count: 0 !important;
+  -webkit-animation-timing-function: linear !important;
+  animation-timing-function: linear !important;
+}
