@@ -87,3 +87,15 @@ icon-sider:hover{
   -webkit-animation-timing-function: linear !important;
   animation-timing-function: linear !important;
 }
+/*
+#recent-posts > .recent-post-item::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  clip-path: polygon(0px 17px,0% calc(100% - 15px),1px calc(100% - 15px),1px 18px,18px 1px,calc(60% - 26px) 1px,calc(60% - 10px) 17px,calc(100% - 1px) 17px,calc(100% - 1px) calc(100% - 11px),calc(80% - 11px) calc(100% - 11px),calc(80% - 16px) calc(100% - 1px),81px calc(100% - 1px),66px calc(100% - 16px),1px calc(100% - 16px),1px calc(100% - 15px),65px calc(100% - 15px),80px 100%,calc(80% - 15px) 100%,calc(80% - 10px) calc(100% - 10px),100% calc(100% - 10px),100% 16px,calc(60% - 9px) 16px,calc(60% - 25px) 0px,17px 0px);
+  background-color: black;
+}
+*/
