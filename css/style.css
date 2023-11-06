@@ -3206,6 +3206,7 @@ button.close {
 
 ::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
@@ -5690,6 +5691,10 @@ body.main-center .sidebar {
   right: 0;
   border-left: 1px solid #f6f6f6;
   border-right: 0;
+}
+
+body.main-center .sidebar::-webkit-scrollbar{
+  display: none;
 }
 
 /*
